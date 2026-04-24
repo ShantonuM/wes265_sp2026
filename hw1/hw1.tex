@@ -151,7 +151,7 @@ $\lambda = \text{Arrival rate} \times T = 1 \times 60 = 60$
 \begin{align*}
     P(X > 100) &= 1 - P(X \le 100) = 1 - \sum_{k=0}^{100} e^{-\lambda} \cdot \frac{\lambda^k}{k!} \\[10pt]
     &= 1 - e^{-\lambda}\left(1 + \frac{\lambda}{1!} + \frac{\lambda^2}{2!} + \dots + \frac{\lambda^{100}}{100!}\right)\\[10pt]
-    &= 1 - F(100; 60), \quad where\ F\ =\ CDF\ of\ Poisson RV
+    &= 1 - F(100; 60), \quad where\ F\ =\ CDF\ of\ Poisson\ RV
 \end{align*}
 
 \lstinputlisting[style=Matlab-editor]{hw1_p1f.m}
