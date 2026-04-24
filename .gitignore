@@ -1,0 +1,11 @@
+.DS_Store
+
+# LaTeX compiler files
+*.asv
+*.gz
+*.out
+*.toc
+*.log
+*.lua
+*.aux
+
