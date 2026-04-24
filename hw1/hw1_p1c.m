@@ -86,4 +86,5 @@ ylim([0 1]);
 legend('Simulated probability', 'Theoretical probability');
 title('Probability of 3 successes in 5 trials');
 xlabel('Number of experiments'); ylabel('Probability');
+yticks(0 : 0.1 : 1);
 grid on; grid minor; axis('padded');
